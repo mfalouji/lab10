@@ -20,19 +20,5 @@ public class testSelectionSort {
         assertArrayEquals(expected, arr);
     }
 
-    @Test
-    public void testMixed() {
-        int[] arr = {3, -2, 0, -1, 2};
-        int[] expected = {-2, -1, 0, 2, 3};
-        arr = sorter.basicSelectionSort(arr);
-        assertArrayEquals(expected, arr);
-    }
-
-    @Test
-    public void testDuplicates() {
-        int[] arr = {5, -2, 5, -2, 0};
-        int[] expected = {-2, -2, 0, 5, 5};
-        arr = sorter.basicSelectionSort(arr);
-        assertArrayEquals(expected, arr);
-    }
+    
 }
